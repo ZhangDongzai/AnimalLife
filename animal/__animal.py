@@ -11,13 +11,20 @@ class Level:
         self.number = 1
         self.experience = 0
 
-    def add(self, experience: int) -> None:
+    def add(self, experience: int) -> bool:
         self.experience += experience
 
         # 如果: 经验满足升级值 与 当前级数小于最大级数 则 升级并清空经验
         if (self.experience >= Level.UP_EXPERIENCE * self.number) and (self.number < Level.MAX_NUMBER):
             self.experience -= Level.UP_EXPERIENCE * self.number
             self.number += 1
+
+            # 升级成功返回 True
+            return True
+        
+        else:
+            # 升级未成功返回 False
+            return False
 
         
 class Animal:
