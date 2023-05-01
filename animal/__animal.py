@@ -14,8 +14,10 @@ class Level:
     def add(self, experience: int) -> bool:
         self.experience += experience
 
-        # 如果: 经验满足升级值 与 当前级数小于最大级数 则 升级并清空经验
+        # 如果: 经验满足升级值 与 当前级数小于最大级数
         if (self.experience >= Level.UP_EXPERIENCE * self.number) and (self.number < Level.MAX_NUMBER):
+            
+            # 升级并清空经验
             self.experience -= Level.UP_EXPERIENCE * self.number
             self.number += 1
 
