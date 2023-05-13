@@ -21,7 +21,7 @@
 - 需要安装`python3`及以上版本
 
 ### 运行
-    git clone https://github.com/ZhangDongzai/AnimalLife.git; cd AnimalLife; python3 main.py;
+    git clone https://github.com/ZhangDongzai/AnimalLife.git; cd AnimalLife; python3 main.py
 
 
 ## 主要项目负责人
