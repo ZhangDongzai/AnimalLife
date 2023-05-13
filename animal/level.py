@@ -1,7 +1,7 @@
 # 等级类
 class Level:
-    MAX_NUMBER: int = 100       # 最大级数
-    UP_EXPERIENCE: int = 50     # 升第1级需要的经验
+    MAX_NUMBER = 100       # 最大级数
+    UP_EXPERIENCE = 50     # 升第1级需要的经验
 
     def __init__(self) -> None:
         # 创建实例属性

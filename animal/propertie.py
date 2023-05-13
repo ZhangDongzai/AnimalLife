@@ -1,10 +1,10 @@
 # 属性类
 class Propertie:
-    NAME: str = "propertie"             # 属性名称
-    RESTRAINED_PROPERTIES: list = []    # 克制属性
-    DISSOLVE_PROPERTIES: list = []      # 融合属性
+    NAME = "propertie"           # 名称
+    RESTRAINED_PROPERTIES = []   # 克制
+    DISSOLVE_PROPERTIES = []     # 融合
 
     # BUFF
-    ATTACK: float = 0.0                 # 攻击力
-    DEFENSE: float = 0.0                # 防御力
-    VITALITY: float = 0.0               # 生命力
+    ATTACK = 0.0                 # 攻击
+    DEFENSE = 0.0                # 防御
+    VITALITY = 0.0               # 生命
