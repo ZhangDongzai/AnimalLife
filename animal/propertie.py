@@ -57,6 +57,7 @@ class Fire(Propertie):
     DEFENSE = -1
     VITALITY = -1
 
+
 class Earth(Propertie):
     NAME = "土"
     RESTRAINED_PROPERTIE = "水"
