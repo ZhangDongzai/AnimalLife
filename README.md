@@ -18,7 +18,7 @@
 ## 使用
 
 ### 依赖
-- 需要安装`python3`及以上版本 [python官网](python.org)
+- 需要安装`python3`及以上版本 [python官网](https://www.python.org)
 
 ### 运行
 在终端中运行以下代码
